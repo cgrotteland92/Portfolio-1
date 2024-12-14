@@ -9,10 +9,54 @@ body {
 }
 
 .header {
-  background-color: #007bff;
-  color: #fff;
-  padding: 1rem 0;
-  text-align: center;
+  padding: 3rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  width: 100%;
+  height: 900px;
+}
+
+.container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 2rem;
+}
+
+.header-content {
+  max-width: 60%;
+  flex-shrink: 1;
+}
+
+.text-content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #f47c7c;
+  margin-bottom: 1rem;
+}
+
+.text-content p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+.image-container {
+  max-width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.header-image {
+  width: 80%;
+  height: auto;
+  border-radius: 50%;
 }
 
 .footer {
@@ -26,6 +70,24 @@ body {
 .footer p {
   margin: 0;
   font-size: 0.9rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .header-content {
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .image-container {
+    max-width: 80%;
+  }
 }
 
 .portfolio-section {
@@ -78,13 +140,58 @@ body {
   margin-top: 1rem;
 }
 
-.project-link {
-  text-decoration: none;
-  color: #007bff;
-  font-weight: bold;
-  transition: color 0.3s ease;
+#toolkit {
+  padding: 2rem;
+  text-align: center;
+  background-color: #f9f9f9;
 }
 
-.project-link:hover {
-  color: #0056b3;
+#toolkit h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.toolkit-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.tool {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.tool i {
+  font-size: 3rem; /* Larger icons */
+  color: #555; /* Default color for icons */
+}
+
+.tool p {
+  margin: 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #toolkit h2 {
+    font-size: 1.5rem;
+  }
+
+  .tool i {
+    font-size: 2.5rem;
+  }
+
+  .tool p {
+    font-size: 0.9rem;
+  }
 }

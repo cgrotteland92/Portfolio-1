@@ -5,11 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/ff0f99a23c.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header class="header">
       <div class="container">
-        <h1>Welcome to My Portfolio</h1>
+        <div class="text-content">
+          <h1>Hello! I'm Christian <span>👋</span></h1>
+          <p>
+            A passionate frontend development student currently studying at
+            Noroff School of Technology and Digital Media, dedicated to learning
+            and creating responsive, user-friendly web designs.
+          </p>
+        </div>
+        <div class="image-container">
+          <img
+            src="images/developer-2.jpg"
+            alt="Illustration of a web developer coding on a laptop"
+            class="header-image"
+          />
+        </div>
       </div>
     </header>
     <section id="portfolio" class="portfolio-section">
@@ -17,75 +35,119 @@
       <div class="project-cards">
         <!-- Project 1 -->
         <div class="project-card">
-          <h3 class="project-title">Project 1: Community Science Museum</h3>
-          <p class="project-description">
-            Noroff Semester Project 1 - My first HTML & CSS and responsive
-            design.
-          </p>
+          <h3 class="project-title">Science Museum</h3>
           <img
-            src="[path/to/screenshot1.jpg]"
+            src="images/ScienceMuseum.png"
             alt="Screenshot of Project 1"
             class="project-screenshot"
           />
+          <p class="project-description">
+            Noroff Semester Project 1 - HTML, CSS with responsive design.
+          </p>
+
           <div class="project-links">
-            <a href="[GitHub Link 1]" target="_blank" class="project-link"
-              >GitHub Repo</a
+            <a
+              href="https://github.com/cgrotteland92/Semester-Project-1"
+              target="_blank"
+              class="project-link"
             >
-            <a href="[Live Site Link 1]" target="_blank" class="project-link"
-              >Live Site</a
+              <i class="fa-brands fa-github fa-xl" style="color: #000000"></i>
+            </a>
+            <a
+              href="https://cgrotteland92.github.io/Semester-Project-1/"
+              target="_blank"
+              class="project-link"
             >
+              <i class="fa-solid fa-house fa-xl" style="color: #000000"></i>
+            </a>
           </div>
         </div>
 
         <!-- Project 2 -->
         <div class="project-card">
-          <h3 class="project-title">Project 2: Square Eyes</h3>
-          <p class="project-description">
-            My first HTML & CSS project at Noroff, with JavaScript and API
-            integration added in a later assignment
-          </p>
+          <h3 class="project-title">Square Eyes</h3>
           <img
-            src="[path/to/screenshot2.jpg]"
+            src="images/SquareEyes.png"
             alt="Screenshot of Project 2"
             class="project-screenshot"
           />
+          <p class="project-description">
+            HTML & CSS Project at Noroff - JavaScript added in later.
+          </p>
+
           <div class="project-links">
-            <a href="[GitHub Link 2]" target="_blank" class="project-link"
-              >GitHub Repo</a
+            <a
+              href="https://github.com/NoroffFEU/html-css-course-assignment-cgrotteland92"
+              target="_blank"
+              class="project-link"
             >
-            <a href="[Live Site Link 2]" target="_blank" class="project-link"
-              >Live Site</a
+              <i class="fa-brands fa-github fa-xl" style="color: #000000"></i>
+            </a>
+            <a
+              href="https://norofffeu.github.io/html-css-course-assignment-cgrotteland92/"
+              target="_blank"
+              class="project-link"
             >
+              <i class="fa-solid fa-house fa-xl" style="color: #000000"></i>
+            </a>
           </div>
         </div>
 
         <!-- Project 3 -->
         <div class="project-card">
-          <h3 class="project-title">Project 3: TechRadar</h3>
-          <p class="project-description">
-            Project Exam at Noroff - Implementing CRUD functionality for post
-            management and user authentication,JavaScript and API integration
-            were central to this project."
-          </p>
+          <h3 class="project-title">TechRadar</h3>
           <img
-            src="[path/to/screenshot3.jpg]"
+            src="images/TechRadar1.png"
             alt="Screenshot of Project 3"
             class="project-screenshot"
           />
+          <p class="project-description">
+            Project Exam at Noroff - HTML & CSS, JavaScript and API integration
+          </p>
           <div class="project-links">
-            <a href="[GitHub Link 3]" target="_blank" class="project-link"
-              >GitHub Repo</a
+            <a
+              href="https://github.com/cgrotteland92/project-exam-1-cgrotteland92-2.2"
+              target="_blank"
+              class="project-link"
             >
-            <a href="[Live Site Link 3]" target="_blank" class="project-link"
-              >Live Site</a
+              <i class="fa-brands fa-github fa-xl" style="color: #000000"></i>
+            </a>
+            <a
+              href="https://cgrotteland92.github.io/project-exam-1-cgrotteland92-2.2/"
+              target="_blank"
+              class="project-link"
             >
+              <i class="fa-solid fa-house fa-xl" style="color: #000000"></i>
+            </a>
           </div>
         </div>
       </div>
     </section>
+    <section id="toolkit">
+      <h2>My Toolkit</h2>
+      <ul class="toolkit-list">
+        <li class="tool">
+          <i class="fa-brands fa-css3-alt" aria-hidden="true"></i>
+          <p>CSS</p>
+        </li>
+        <li class="tool">
+          <i class="fa-brands fa-html5" aria-hidden="true"></i>
+          <p>HTML</p>
+        </li>
+        <li class="tool">
+          <i class="fa-brands fa-js" aria-hidden="true"></i>
+          <p>JavaScript</p>
+        </li>
+        <li class="tool">
+          <i class="fa-solid fa-universal-access" aria-hidden="true"></i>
+          <p>Accessibility</p>
+        </li>
+      </ul>
+    </section>
+
     <footer class="footer">
       <div class="container">
-        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+        <p>&copy; 2024 My Portfolio.</p>
       </div>
     </footer>
   </body>
