@@ -3,8 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Christian Grøtteland</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/ff0f99a23c.js"
       crossorigin="anonymous"
@@ -29,9 +35,10 @@
           />
         </div>
       </div>
+      <i class="fa-solid fa-arrow-down"></i>
     </header>
     <section id="portfolio" class="portfolio-section">
-      <h2 class="section-title">My Projects</h2>
+      <h2 class="section-title">My Projects <span>💻</span></h2>
       <div class="project-cards">
         <!-- Project 1 -->
         <div class="project-card">
@@ -44,25 +51,23 @@
           <p class="project-description">
             Noroff Semester Project 1 - HTML, CSS with responsive design.
           </p>
-
           <div class="project-links">
             <a
               href="https://github.com/cgrotteland92/Semester-Project-1"
               target="_blank"
               class="project-link"
             >
-              <i class="fa-brands fa-github fa-xl" style="color: #000000"></i>
+              <i class="fa-brands fa-github fa-xl"></i>
             </a>
             <a
               href="https://cgrotteland92.github.io/Semester-Project-1/"
               target="_blank"
               class="project-link"
             >
-              <i class="fa-solid fa-house fa-xl" style="color: #000000"></i>
+              <i class="fa-solid fa-house fa-xl"></i>
             </a>
           </div>
         </div>
-
         <!-- Project 2 -->
         <div class="project-card">
           <h3 class="project-title">Square Eyes</h3>
@@ -74,25 +79,23 @@
           <p class="project-description">
             HTML & CSS Project at Noroff - JavaScript added in later.
           </p>
-
           <div class="project-links">
             <a
               href="https://github.com/NoroffFEU/html-css-course-assignment-cgrotteland92"
               target="_blank"
               class="project-link"
             >
-              <i class="fa-brands fa-github fa-xl" style="color: #000000"></i>
+              <i class="fa-brands fa-github fa-xl"></i>
             </a>
             <a
               href="https://norofffeu.github.io/html-css-course-assignment-cgrotteland92/"
               target="_blank"
               class="project-link"
             >
-              <i class="fa-solid fa-house fa-xl" style="color: #000000"></i>
+              <i class="fa-solid fa-house fa-xl"></i>
             </a>
           </div>
         </div>
-
         <!-- Project 3 -->
         <div class="project-card">
           <h3 class="project-title">TechRadar</h3>
@@ -110,21 +113,42 @@
               target="_blank"
               class="project-link"
             >
-              <i class="fa-brands fa-github fa-xl" style="color: #000000"></i>
+              <i class="fa-brands fa-github fa-xl"></i>
             </a>
             <a
               href="https://cgrotteland92.github.io/project-exam-1-cgrotteland92-2.2/"
               target="_blank"
               class="project-link"
             >
-              <i class="fa-solid fa-house fa-xl" style="color: #000000"></i>
+              <i class="fa-solid fa-house fa-xl"></i>
             </a>
           </div>
         </div>
       </div>
     </section>
+    <section id="about-me">
+      <div class="about-me-content">
+        <h2 class="section-title">About Me <span>🌴</span></h2>
+        <p>
+          Thanks for scrolling this far! I'm Christian Grøtteland from
+          Stavanger, Norway and I'm a 32-year-old frontend developer student at
+          Noroff School of Technology and Digital Media. <br />
+          <br />
+          Currently, I have only worked with HTML, CSS, and JavaScript, and I
+          look forward to starting learning about other frameworks next year.
+          When I'm not learning to code I like to stay active, watch movies and
+          be with friends.
+        </p>
+      </div>
+      <div class="about-me-image">
+        <img
+          src="images/18399051-5a2c-4779-abf5-229c9711e7a9.jpg"
+          alt="Christian with some monkeys"
+        />
+      </div>
+    </section>
     <section id="toolkit">
-      <h2>My Toolkit</h2>
+      <h2 class="section-title">My Toolkit <span>🛠️</span></h2>
       <ul class="toolkit-list">
         <li class="tool">
           <i class="fa-brands fa-css3-alt" aria-hidden="true"></i>
@@ -147,7 +171,22 @@
 
     <footer class="footer">
       <div class="container">
-        <p>&copy; 2024 My Portfolio.</p>
+        <div class="footer-icons">
+          <a
+            href="https://github.com/cgrotteland92"
+            target="_blank"
+            aria-label="GitHub"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/christian-gr%C3%B8tteland-0408372aa/"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
       </div>
     </footer>
   </body>
