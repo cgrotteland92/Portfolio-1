@@ -1,2 +1,3 @@
-# Portfolio-1
-Portfolio of my frontend projects
+# Christian Grøtteland's Portfolio
+Welcome to my personal portfolio! This project showcases my journey as a frontend developer, including some of the key projects I’ve worked on and the skills I’ve developed.
+I will be updating this with new projects along the way!
